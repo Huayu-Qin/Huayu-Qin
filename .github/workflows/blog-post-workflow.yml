@@ -1,8 +1,8 @@
 name: Latest blog post workflow
 on:
   schedule:
-    # Runs every hour
-    - cron: '0 * * * *'
+    # Runs every day
+    - cron: '0 0 * * *'
   workflow_dispatch:
 
 jobs:
@@ -10,7 +10,11 @@ jobs:
     name: Update this repos README with latest blog posts
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v3
+      - uses: actions/checkout@v2
+      - uses: gautamkrishnar/blog-post-workflow@master
         with:
+          comment_tag_name: "DEV"
           max_post_count: "4"
           feed_list: "https://dev.to/feed/huayuqin"
+          commit_message: "Update dev.to blog posts"
+          gh_token: ${{ secrets.GITHUB_TOKEN }}
