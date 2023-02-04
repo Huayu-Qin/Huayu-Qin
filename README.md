@@ -61,5 +61,6 @@ I am a Software Developer <img src="https://media.giphy.com/media/WUlplcMpOCEmTG
 
 ### :writing_hand: Blog Posts :
 <!-- BLOG-POST-LIST:START -->
+- [2023 Resolution](https://dev.to/huayuqin/2023-resolution-3a4i)
 <!-- BLOG-POST-LIST:END -->
 
