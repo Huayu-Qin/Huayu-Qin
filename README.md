@@ -52,9 +52,7 @@ Select a word anywhere on the Mac and open its entry in Oxford Learner's Diction
 Not public yet.
 
 - **WristType** · Apple Watch, iPhone and Mac. Started as dictation from the wrist and became an English practice tool.
-- **Project Arc** · a turn-based artillery game for Steam, built with web technology.
-- **SubtitleStudio** · a subtitle pipeline that runs locally: a Mac app with an iPhone remote.
-- **TypeBridge** · a Mac menu-bar composer. Write a draft in mixed English and Chinese and get English back, with every change marked.
+- **SubtitleStudio** · Mac app with an iPhone remote. Paste a link to an online video or pick a local file; it downloads the video, transcribes it and adds subtitles in another language. Everything runs on the Mac, with no API keys.
 
 ### How I work with agents
 
