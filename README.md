@@ -6,7 +6,7 @@
 </p>
 
 <p align="center">
-  I build small, useful software with AI coding agents,
+  I build useful software with AI coding agents,
   and I like finding out what they can really do.
 </p>
 
@@ -23,8 +23,7 @@
 </picture>
 
 **[SmartAITranslator](https://apps.apple.com/us/app/smartaitranslator/id6757966733)** · iPhone app, on the App Store<br>
-Type something once and several AI models translate it at the same time. Each model gets its own card, so you can
-compare them and pick the one that reads best.
+One input, several AI models translating side by side.
 
 <br clear="left">
 
@@ -41,7 +40,7 @@ Not public yet.
 </picture>
 
 **WristType** · Apple Watch, iPhone and Mac<br>
-Started as dictation from the wrist and became an English practice tool.
+All-day recording from the wrist, transcribed and analysed by AI.
 
 <br clear="left">
 
@@ -54,8 +53,7 @@ Started as dictation from the wrist and became an English practice tool.
 </picture>
 
 **SubtitleStudio** · Mac app with an iPhone remote<br>
-Paste a link to an online video or pick a local file; it downloads the video, transcribes it and adds subtitles in
-another language. Everything runs on the Mac, with no API keys.
+Transcribes online or local video and adds subtitles in another language, all on-device.
 
 <br clear="left">
 
@@ -68,8 +66,7 @@ another language. Everything runs on the Mac, with no API keys.
 </picture>
 
 **Camera Hub** · home CCTV, Mac and ESP32<br>
-A Mac hub takes a camera stream and does motion and object detection, with alerts. The embedded side is a small
-ESP32-S3 camera board with a pan-tilt controller, still being brought up.
+Smart CCTV: live camera streams with motion and object detection, and alerts.
 
 <br clear="left">
 
