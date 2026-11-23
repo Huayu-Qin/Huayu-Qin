@@ -6,7 +6,7 @@
 </p>
 
 <p align="center">
-  I build small, useful software with AI coding agents,<br>
+  I build small, useful software with AI coding agents,
   and I like finding out what they can really do.
 </p>
 
@@ -15,8 +15,11 @@
 ### Shipped and public
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="assets/translate-dark.png">
-  <img src="assets/translate-light.png" width="84" align="left" alt="">
+  <source media="(max-width: 600px) and (prefers-color-scheme: dark)" srcset="assets/translate-dark.png 7x">
+  <source media="(max-width: 600px)" srcset="assets/translate-light.png 7x">
+  <source media="(prefers-color-scheme: dark)" srcset="assets/translate-dark.png 3x">
+  <source srcset="assets/translate-light.png 3x">
+  <img src="assets/translate-light.png" align="left" alt="">
 </picture>
 
 **[SmartAITranslator](https://apps.apple.com/us/app/smartaitranslator/id6757966733)** · iPhone app, on the App Store<br>
@@ -26,8 +29,11 @@ compare them and pick the one that reads best.
 <br clear="left">
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="assets/switch-dark.png">
-  <img src="assets/switch-light.png" width="84" align="left" alt="">
+  <source media="(max-width: 600px) and (prefers-color-scheme: dark)" srcset="assets/switch-dark.png 7x">
+  <source media="(max-width: 600px)" srcset="assets/switch-light.png 7x">
+  <source media="(prefers-color-scheme: dark)" srcset="assets/switch-dark.png 3x">
+  <source srcset="assets/switch-light.png 3x">
+  <img src="assets/switch-light.png" align="left" alt="">
 </picture>
 
 **[Codex Account Switcher](https://github.com/Huayu-Qin/codex-account-switcher/tree/fix/stdio-original-ui)** · my fork of Zhao Liu's app<br>
@@ -38,8 +44,11 @@ usage reset times in the menu bar. One fix went back upstream
 <br clear="left">
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="assets/book-dark.png">
-  <img src="assets/book-light.png" width="84" align="left" alt="">
+  <source media="(max-width: 600px) and (prefers-color-scheme: dark)" srcset="assets/book-dark.png 7x">
+  <source media="(max-width: 600px)" srcset="assets/book-light.png 7x">
+  <source media="(prefers-color-scheme: dark)" srcset="assets/book-dark.png 3x">
+  <source srcset="assets/book-light.png 3x">
+  <img src="assets/book-light.png" align="left" alt="">
 </picture>
 
 **[Oxford Dictionary for PopClip](https://github.com/Huayu-Qin/Oxford-Learner-Dictionary-Popclip-Extension)** · Mac<br>
