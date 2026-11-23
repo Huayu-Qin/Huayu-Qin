@@ -6,13 +6,13 @@
 </p>
 
 <p align="center">
-  I build useful software with AI coding agents,
+  I build apps for iPhone, Apple Watch and Mac with AI coding agents,
   and I like finding out what they can really do.
 </p>
 
 <br>
 
-### Shipped and public
+### Shipped
 
 <picture>
   <source media="(max-width: 600px) and (prefers-color-scheme: dark)" srcset="assets/translate-dark.png 7x">
@@ -29,7 +29,7 @@ One input, several AI models translating side by side.
 
 ### In the workshop
 
-Not public yet.
+In progress, not public yet.
 
 <picture>
   <source media="(max-width: 600px) and (prefers-color-scheme: dark)" srcset="assets/watch-dark.png 7x">
@@ -89,9 +89,9 @@ shared notes, so the next project starts with it.
 - **State lives in files any agent can read,** so Claude Code or Codex can pick up where the other stopped.
 - **Keep it light.** The lightest process that works.
 
-### Lately
+### Stack
 
-Swift · Python · JavaScript · Claude Code · Codex · local models
+Swift · Python · JavaScript · ESP32 · Claude Code · Codex · on-device AI
 
 <br>
 
