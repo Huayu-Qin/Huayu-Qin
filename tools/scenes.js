@@ -223,6 +223,27 @@ function foundation(theme) {
   return sc;
 }
 
+// A laptop and a tower PC passing jobs between them: local models spread over two machines.
+function pipeline(theme) {
+  const sm = rotX(deg(-14));
+  const tm = rotY(deg(-18));
+  const sc = icon(theme, [
+    { c: [0, 0.9, 0], r: 4.4, prims: [
+      { t: 'slab', c: [-1.75, 0.09, 0.45], h: [1.05, 0.09, 0.7], R: 0.18, e: 0.05, mat: 'slab' },
+      phone([-1.75, 1.0, -0.38], sm, 1.05, 0.72, [[-0.2, 0.42, 0.5, 0.11, 'cobalt'], [0.15, -0.02, 0.5, 0.11, 'coral'], [-0.3, -0.46, 0.36, 0.11, 'butter']]),
+      { t: 'rbox', c: [1.85, 1.05, -0.1], m: tm, h: [0.52, 1.05, 0.85], r: 0.14, mat: 'ink' },
+      { t: 'sphere', c: [1.62, 1.72, 0.78], r: 0.15, mat: 'coral' },
+      { t: 'capsule', a: [1.4, 0.95, 0.8], b: [1.86, 0.95, 0.66], r: 0.075, mat: 'cobalt' },
+      { t: 'capsule', a: [1.4, 0.62, 0.8], b: [1.86, 0.62, 0.66], r: 0.075, mat: 'cobalt' },
+      { t: 'sphere', c: [-0.42, 0.19, 0.75], r: 0.19, mat: 'butter' },
+      { t: 'sphere', c: [0.12, 0.19, 0.6], r: 0.19, mat: 'butter' },
+      { t: 'sphere', c: [0.66, 0.19, 0.75], r: 0.19, mat: 'butter' },
+    ] },
+  ], { target: [0, 0.8, 0], pitch: deg(26), yaw: deg(-18), dist: 10.8 });
+  sc.width = 720; sc.aspect = 2.0;
+  return sc;
+}
+
 function buildScene(name, theme) {
   if (name === 'hero') return hero(theme);
   if (name === 'translate') return iconTranslate(theme);
@@ -231,6 +252,7 @@ function buildScene(name, theme) {
   if (name === 'watch') return iconWatch(theme);
   if (name === 'subtitle') return iconSubtitle(theme);
   if (name === 'camera') return iconCamera(theme);
+  if (name === 'pipeline') return pipeline(theme);
   if (name === 'foundation') return foundation(theme);
   throw new Error('unknown scene ' + name);
 }
