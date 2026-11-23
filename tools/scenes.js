@@ -167,6 +167,46 @@ function iconBook(theme) {
   ], { target: [0, 0.55, 0], pitch: deg(34), dist: 9.6 });
 }
 
+// Workshop icons: a watch, a screen with caption bars, a camera on a stand.
+function iconWatch(theme) {
+  const pm = mul(rotY(deg(-14)), rotX(deg(-12)));
+  return icon(theme, [
+    { c: [0, 1.75, 0], r: 2.4, prims: [
+      { t: 'plate', c: [0, 2.82, -0.2], m: pm, h: [0.5, 0.62, 0.05], R: 0.16, e: 0.04, mat: 'coral' },
+      { t: 'plate', c: [0, 0.66, 0.24], m: pm, h: [0.5, 0.62, 0.05], R: 0.16, e: 0.04, mat: 'coral' },
+      phone([0, 1.75, 0], pm, 0.8, 0.9, [[0, 0.3, 0.5, 0.16, 'cobalt'], [-0.12, -0.3, 0.38, 0.16, 'butter']]),
+      { t: 'sphere', c: [0.9, 1.95, 0.2], r: 0.15, mat: 'butter' },
+    ] },
+  ], { target: [0, 1.7, 0], dist: 11.5 });
+}
+
+function iconSubtitle(theme) {
+  const pm = mul(rotY(deg(-12)), rotX(deg(-10)));
+  return icon(theme, [
+    { c: [0, 1.2, 0], r: 2.4, prims: [
+      phone([0, 1.25, 0], pm, 1.35, 0.95, [[0, -0.42, 0.62, 0.085, 'cobalt'], [0, -0.74, 0.42, 0.085, 'coral']]),
+      { t: 'sphere', c: [-0.05, 1.62, 0.32], r: 0.3, mat: 'butter' },
+      { t: 'capsule', a: [-0.5, 0.14, 0.2], b: [0.5, 0.14, 0.2], r: 0.14, mat: 'ink' },
+    ] },
+  ], { target: [0, 1.15, 0], dist: 10.2 });
+}
+
+function iconCamera(theme) {
+  const m = rotY(deg(35));
+  const f = (d) => [Math.sin(deg(35)) * -d, 0, Math.cos(deg(35)) * d]; // along the body, toward the lens
+  const at = (d, y, side = 0) => [f(d)[0] + side * Math.cos(deg(35)), y, f(d)[2] + side * Math.sin(deg(35))];
+  return icon(theme, [
+    { c: [0, 1.1, 0], r: 2.6, prims: [
+      { t: 'rbox', c: at(-0.1, 1.65), m, h: [0.52, 0.5, 0.9], r: 0.2, mat: 'cream' },
+      { t: 'sphere', c: at(0.82, 1.65), r: 0.44, mat: 'body' },
+      { t: 'sphere', c: at(1.12, 1.65), r: 0.21, mat: 'cobalt' },
+      { t: 'sphere', c: at(0.35, 2.2, -0.25), r: 0.13, mat: 'coral' },
+      { t: 'capsule', a: at(-0.35, 1.1), b: at(-0.35, 0.3), r: 0.15, mat: 'ink' },
+      { t: 'cyl', c: at(-0.35, 0.13), m: rotY(0), R: 0.7, h: 0.13, e: 0.06, mat: 'ink' },
+    ] },
+  ], { target: [0, 1.1, 0], dist: 10 });
+}
+
 // Three layers with different things standing on top: one foundation under every project.
 function foundation(theme) {
   const sc = icon(theme, [
@@ -188,6 +228,9 @@ function buildScene(name, theme) {
   if (name === 'translate') return iconTranslate(theme);
   if (name === 'switch') return iconSwitch(theme);
   if (name === 'book') return iconBook(theme);
+  if (name === 'watch') return iconWatch(theme);
+  if (name === 'subtitle') return iconSubtitle(theme);
+  if (name === 'camera') return iconCamera(theme);
   if (name === 'foundation') return foundation(theme);
   throw new Error('unknown scene ' + name);
 }

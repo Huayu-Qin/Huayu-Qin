@@ -4,7 +4,7 @@ set -e
 for theme in light dark; do
   node tools/render.js hero "$theme" "assets/hero-$theme.png" 1600 3
   node tools/render.js foundation "$theme" "assets/foundation-$theme.png" 840 3
-  for icon in translate switch book; do
+  for icon in translate switch book watch subtitle camera; do
     node tools/render.js "$icon" "$theme" "assets/$icon-$theme.png" 264 3
   done
 done

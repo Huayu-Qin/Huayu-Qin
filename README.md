@@ -28,40 +28,50 @@ compare them and pick the one that reads best.
 
 <br clear="left">
 
-<picture>
-  <source media="(max-width: 600px) and (prefers-color-scheme: dark)" srcset="assets/switch-dark.png 7x">
-  <source media="(max-width: 600px)" srcset="assets/switch-light.png 7x">
-  <source media="(prefers-color-scheme: dark)" srcset="assets/switch-dark.png 3x">
-  <source srcset="assets/switch-light.png 3x">
-  <img src="assets/switch-light.png" align="left" alt="">
-</picture>
-
-**[Codex Account Switcher](https://github.com/Huayu-Qin/codex-account-switcher/tree/fix/stdio-original-ui)** · my fork of Zhao Liu's app<br>
-A menu-bar app for switching between Codex accounts. My branch adds a native macOS menu, account renaming and
-usage reset times in the menu bar. One fix went back upstream
-([#34](https://github.com/liuzhao1225/codex-account-switcher/pull/34)).
-
-<br clear="left">
-
-<picture>
-  <source media="(max-width: 600px) and (prefers-color-scheme: dark)" srcset="assets/book-dark.png 7x">
-  <source media="(max-width: 600px)" srcset="assets/book-light.png 7x">
-  <source media="(prefers-color-scheme: dark)" srcset="assets/book-dark.png 3x">
-  <source srcset="assets/book-light.png 3x">
-  <img src="assets/book-light.png" align="left" alt="">
-</picture>
-
-**[Oxford Dictionary for PopClip](https://github.com/Huayu-Qin/Oxford-Learner-Dictionary-Popclip-Extension)** · Mac<br>
-Select a word anywhere on the Mac and open its entry in Oxford Learner's Dictionaries.
-
-<br clear="left">
-
 ### In the workshop
 
 Not public yet.
 
-- **WristType** · Apple Watch, iPhone and Mac. Started as dictation from the wrist and became an English practice tool.
-- **SubtitleStudio** · Mac app with an iPhone remote. Paste a link to an online video or pick a local file; it downloads the video, transcribes it and adds subtitles in another language. Everything runs on the Mac, with no API keys.
+<picture>
+  <source media="(max-width: 600px) and (prefers-color-scheme: dark)" srcset="assets/watch-dark.png 7x">
+  <source media="(max-width: 600px)" srcset="assets/watch-light.png 7x">
+  <source media="(prefers-color-scheme: dark)" srcset="assets/watch-dark.png 3x">
+  <source srcset="assets/watch-light.png 3x">
+  <img src="assets/watch-light.png" align="left" alt="">
+</picture>
+
+**WristType** · Apple Watch, iPhone and Mac<br>
+Started as dictation from the wrist and became an English practice tool.
+
+<br clear="left">
+
+<picture>
+  <source media="(max-width: 600px) and (prefers-color-scheme: dark)" srcset="assets/subtitle-dark.png 7x">
+  <source media="(max-width: 600px)" srcset="assets/subtitle-light.png 7x">
+  <source media="(prefers-color-scheme: dark)" srcset="assets/subtitle-dark.png 3x">
+  <source srcset="assets/subtitle-light.png 3x">
+  <img src="assets/subtitle-light.png" align="left" alt="">
+</picture>
+
+**SubtitleStudio** · Mac app with an iPhone remote<br>
+Paste a link to an online video or pick a local file; it downloads the video, transcribes it and adds subtitles in
+another language. Everything runs on the Mac, with no API keys.
+
+<br clear="left">
+
+<picture>
+  <source media="(max-width: 600px) and (prefers-color-scheme: dark)" srcset="assets/camera-dark.png 7x">
+  <source media="(max-width: 600px)" srcset="assets/camera-light.png 7x">
+  <source media="(prefers-color-scheme: dark)" srcset="assets/camera-dark.png 3x">
+  <source srcset="assets/camera-light.png 3x">
+  <img src="assets/camera-light.png" align="left" alt="">
+</picture>
+
+**Camera Hub** · home CCTV, Mac and ESP32<br>
+A Mac hub takes a camera stream and does motion and object detection, with alerts. The embedded side is a small
+ESP32-S3 camera board with a pan-tilt controller, still being brought up.
+
+<br clear="left">
 
 ### How I work with agents
 
