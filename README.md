@@ -1,73 +1,81 @@
-<div id="header" align="center">
-  <img src="https://media.giphy.com/media/M9gbBd9nbDrOTu1Mqx/giphy.gif" width="100"/>
-  <div id="badges">
-    <a href="https://www.linkedin.com/in/huayu-qin-06132a20a/">
-      <img src="https://img.shields.io/badge/LinkedIn-blue?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn Badge"/>
-    </a>
-  </div>
-  <img src="https://komarev.com/ghpvc/?username=Huayu-Qin&style=flat-square&color=blue" alt=""/>
-  <h1>
-    hey there
-    <img src="https://media.giphy.com/media/hvRJCLFzcasrR4ia7z/giphy.gif" width="30px"/>
-  </h1>
-</div>
+<p align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="assets/hero-dark.png">
+    <img src="assets/hero-light.png" width="860" alt="The name Huayu Qin as soft 3D letters on a floating slab, with a small ringed planet and a phone">
+  </picture>
+</p>
 
-<div align="center">
-  <img src="https://media.giphy.com/media/dWesBcTLavkZuG35MI/giphy.gif" width="500" height="300"/>
-</div>
+<p align="center">
+  I build small, useful software with AI coding agents,<br>
+  and I like finding out what they can really do.
+</p>
 
----
+<br>
 
-### :man_technologist: About Me :
-I am a Software Developer <img src="https://media.giphy.com/media/WUlplcMpOCEmTGBtBW/giphy.gif" width="30"> from China.
+### Shipped and public
 
-- :telescope: I’m looking for an opportunity of Software Engineer and contributing to frontend and backend for building web applications.
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/translate-dark.png">
+  <img src="assets/translate-light.png" width="84" align="left" alt="">
+</picture>
 
-- :seedling: Exploring Technical Content Writing.
+**[SmartAITranslator](https://apps.apple.com/us/app/smartaitranslator/id6757966733)** · iPhone app, on the App Store<br>
+Type something once and several AI models translate it at the same time. Each model gets its own card, so you can
+compare them and pick the one that reads best.
 
-- :zap: In my free time, I work on personal projects and read tech articles.
+<br clear="left">
 
-- :mailbox:How to reach me: [![Linkedin Badge](https://img.shields.io/badge/-Huayu_Qin-blue?style=flat&logo=Linkedin&logoColor=white)](https://www.linkedin.com/in/huayu-qin-06132a20a/)
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/switch-dark.png">
+  <img src="assets/switch-light.png" width="84" align="left" alt="">
+</picture>
 
----
+**[Codex Account Switcher](https://github.com/Huayu-Qin/codex-account-switcher/tree/fix/stdio-original-ui)** · my fork of Zhao Liu's app<br>
+A menu-bar app for switching between Codex accounts. My branch adds a native macOS menu, account renaming and
+usage reset times in the menu bar. One fix went back upstream
+([#34](https://github.com/liuzhao1225/codex-account-switcher/pull/34)).
 
-### :hammer_and_wrench: Languages and Tools :
-<div>
-  <!--<img src="https://github.com/devicons/devicon/blob/master/icons/java/java-original-wordmark.svg" title="Java" alt="Java" width="40" height="40"/>&nbsp;-->
-  <!--<img src="https://github.com/devicons/devicon/blob/master/icons/spring/spring-original-wordmark.svg" title="Spring" alt="Spring" width="40" height="40"/>&nbsp;-->
-<!--   <img src="https://github.com/devicons/devicon/blob/master/icons/materialui/materialui-original.svg" title="Material UI" alt="Material UI" width="40" height="40"/>&nbsp; -->
-  <!--<img src="https://github.com/devicons/devicon/blob/master/icons/flutter/flutter-original.svg" title="Flutter" alt="Flutter" width="40" height="40"/>&nbsp;-->
-<!--   <img src="https://github.com/devicons/devicon/blob/master/icons/redux/redux-original.svg" title="Redux" alt="Redux " width="40" height="40"/>&nbsp; -->
-<!--   <img src="https://github.com/devicons/devicon/blob/master/icons/css3/css3-plain-wordmark.svg"  title="CSS3" alt="CSS" width="40" height="40"/>&nbsp; -->
-<!--   <img src="https://github.com/devicons/devicon/blob/master/icons/html5/html5-original.svg" title="HTML5" alt="HTML" width="40" height="40"/>&nbsp; -->
-<!--   <img src="https://github.com/devicons/devicon/blob/master/icons/javascript/javascript-original.svg" title="JavaScript" alt="JavaScript" width="40" height="40"/>&nbsp; -->
-  <img src="https://github.com/devicons/devicon/blob/master/icons/typescript/typescript-original.svg" title="TypeScript" alt="TypeScript" width="40" height="40"/>&nbsp;
-  <img src="https://github.com/devicons/devicon/blob/master/icons/python/python-original.svg" title="Python" alt="Python" width="40" height="40"/>&nbsp;
-<!--   <img src="https://github.com/devicons/devicon/blob/master/icons/firebase/firebase-plain-wordmark.svg" title="Firebase" alt="Firebase" width="40" height="40"/>&nbsp; -->
-  <img src="https://github.com/devicons/devicon/blob/master/icons/react/react-original-wordmark.svg" title="React" alt="React" width="40" height="40"/>&nbsp;
-  <img src="https://github.com/devicons/devicon/blob/master/icons/vuejs/vuejs-original-wordmark.svg" title="VueJS" alt="VueJS" width="40" height="40"/>&nbsp;
-  <img src="https://github.com/devicons/devicon/blob/master/icons/nodejs/nodejs-plain-wordmark.svg" title="NodeJS" alt="NodeJS" width="40" height="40"/>&nbsp;
-  <img src="https://github.com/devicons/devicon/blob/master/icons/nestjs/nestjs-original.svg" title="NestJS" alt="NestJS" width="40" height="40"/>&nbsp;
-  <!--<img src="https://github.com/devicons/devicon/blob/master/icons/gatsby/gatsby-original.svg" title="Gatsby"  alt="Gatsby" width="40" height="40"/>&nbsp;-->
-<!--   <img src="https://github.com/devicons/devicon/blob/master/icons/mysql/mysql-plain-wordmark.svg" title="MySQL"  alt="MySQL" width="40" height="40"/>&nbsp; -->
-  <img src="https://github.com/devicons/devicon/blob/master/icons/postgresql/postgresql-original.svg" title="PostgreSQL"  alt="PostgreSQL" width="40" height="40"/>&nbsp;
-  <img src="https://github.com/devicons/devicon/blob/master/icons/mongodb/mongodb-plain-wordmark.svg" title="MopngoDB"  alt="MongoDB" width="40" height="40"/>&nbsp;
-  <!--<img src="https://github.com/devicons/devicon/blob/master/icons/amazonwebservices/amazonwebservices-plain-wordmark.svg" title="AWS" alt="AWS" width="40" height="40"/>&nbsp;-->
-  <img src="https://github.com/devicons/devicon/blob/master/icons/git/git-plain-wordmark.svg" title="Git" **alt="Git" width="40" height="40"/>
-  <img src="https://github.com/devicons/devicon/blob/master/icons/docker/docker-plain-wordmark.svg" title="Docker" **alt="Docker" width="40" height="40"/>  
-</div>
+<br clear="left">
 
----
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/book-dark.png">
+  <img src="assets/book-light.png" width="84" align="left" alt="">
+</picture>
 
-### :fire: My Stats :
-[![GitHub Streak](https://streak-stats.demolab.com?user=Huayu-Qin&hide_border=true&mode=weekly)](https://git.io/streak-stats)
+**[Oxford Dictionary for PopClip](https://github.com/Huayu-Qin/Oxford-Learner-Dictionary-Popclip-Extension)** · Mac<br>
+Select a word anywhere on the Mac and open its entry in Oxford Learner's Dictionaries.
 
-[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=Huayu-Qin&layout=compact&theme=flag-india&hide_border=true)](https://github.com/anuraghazra/github-readme-stats)
+<br clear="left">
 
----
+### How I work with agents
 
-### :writing_hand: Blog Posts :
-<!-- BLOG-POST-LIST:START -->
-- [2023 Resolution](https://dev.to/huayuqin/2023-resolution-3a4i)
-<!-- BLOG-POST-LIST:END -->
+About twenty projects sit on one short set of written principles. A lesson learned in one project goes into the
+shared notes, so the next project starts with it.
 
+<p align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="assets/foundation-dark.png">
+    <img src="assets/foundation-light.png" width="380" alt="Three stacked layers with a cube, a ball and a cylinder standing on top">
+  </picture>
+</p>
+
+- **Measure, don't guess.** Get a number before changing anything: a frame count, a test score, a timing.
+- **Test under real conditions.** Real data, real speech, real taps. Clean examples lie.
+- **Say what was proven and what was not.**
+- **Looks and feel come first.** Nothing should look machine-made.
+- **State lives in files any agent can read,** so Claude Code or Codex can pick up where the other stopped.
+- **Keep it light.** The lightest process that works.
+
+### Lately
+
+Swift · Python · JavaScript · Claude Code · Codex · local models
+
+<br>
+
+<p align="center">
+  <a href="https://www.linkedin.com/in/huayu-qin-06132a20a/">LinkedIn</a>
+</p>
+
+<p align="center">
+  <sub>The 3D pictures on this page are rendered by a small ray marcher in <a href="tools">tools/</a>. No 3D software was used.</sub>
+</p>
