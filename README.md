@@ -47,6 +47,15 @@ Select a word anywhere on the Mac and open its entry in Oxford Learner's Diction
 
 <br clear="left">
 
+### In the workshop
+
+Not public yet.
+
+- **WristType** · Apple Watch, iPhone and Mac. Started as dictation from the wrist and became an English practice tool.
+- **Project Arc** · a turn-based artillery game for Steam, built with web technology.
+- **SubtitleStudio** · a subtitle pipeline that runs locally: a Mac app with an iPhone remote.
+- **TypeBridge** · a Mac menu-bar composer. Write a draft in mixed English and Chinese and get English back, with every change marked.
+
 ### How I work with agents
 
 About twenty projects sit on one short set of written principles. A lesson learned in one project goes into the
